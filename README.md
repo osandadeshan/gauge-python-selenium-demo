@@ -57,7 +57,7 @@ This project uses:
 - You can check the installation using the following command. \
   `gauge -v`
 
- If the installation is success, it will output like this:
+   If the installation is success, it will output like this:
 
 ```markdown
    Gauge version: <version number>
