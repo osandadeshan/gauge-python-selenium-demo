@@ -19,7 +19,7 @@ This project uses:
 ## Pre Requisites
 
 - [Python 3](https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe)
-- [Install Gauge](https://docs.gauge.org/latest/installation.html) \
+- [Install Gauge](https://docs.gauge.org/latest/installation.html) 
 
     **On Windows**
     1. Install Chocolatey by executing the following command. \
