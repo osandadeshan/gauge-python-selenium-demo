@@ -59,17 +59,17 @@ This project uses:
 
  If the installation is success, it will output like this:
 
-  ```markdown
-        Gauge version: <version number>
-        Plugins
-        -------
-        flash (<version number>)
-        html-report (<version number>)
-        python (<version number>)
-        json-report (<version number>)
-        spectacle (<version number>)
-        xml-report (<version number>)
-    ```
+```markdown
+   Gauge version: <version number>
+   Plugins
+   -------
+   flash (<version number>)
+   html-report (<version number>)
+   python (<version number>)
+   json-report (<version number>)
+   spectacle (<version number>)
+   xml-report (<version number>)
+```
 <br />
 
 ## Executing specs
