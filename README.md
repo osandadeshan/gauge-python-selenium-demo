@@ -2,8 +2,7 @@
 
 This project serves as an example for writing Automation using [Gauge](https://github.com/getgauge/gauge)
 
-This project uses 
-
+This project uses: 
 - [Selenium](http://selenium-python.readthedocs.org/)
 - Snap CI has been setup to run the Gauge Specs from this project.
 <br />
@@ -20,8 +19,7 @@ This project uses
 ## Pre Requisites
 
 - [Python 3](https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe)
-- [Java 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). [Required to bring up the [SUT](#setting-up-the-system-under-test-sut)
-- [Install Gauge](http://getgauge.io/download.html)
+- [Install Gauge](http://getgauge.io/download.html) \
     **On Windows**
     1. Install Chocolatey by executing the following command. \
     ` @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString(‘https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
