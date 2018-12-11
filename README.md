@@ -19,7 +19,7 @@ This project uses:
 ## Pre Requisites
 
 - [Python 3](https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe)
-- [Install Gauge](https://docs.gauge.org/latest/installation.html) \
+- [Install Gauge](https://docs.gauge.org/latest/installation.html) \\
     **On Windows**
     1. Install Chocolatey by executing the following command. \
     ` @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString(‘https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
@@ -75,7 +75,7 @@ This project uses:
 ## Executing specs
 
 ### Set up
-This project requires pip to install dependencies. To install dependencies run :  
+This project requires pip to install dependencies. To install dependencies run:  
 ````
 pip install -r requirements.txt
 ````
