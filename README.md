@@ -7,7 +7,7 @@ This project uses:
 - Snap CI has been setup to run the Gauge Specs from this project.
 <br />
 
-# Concepts Covered
+## Concepts Covered
 
 - Use [Webdriver](http://docs.seleniumhq.org/projects/webdriver/) as base of implementation
 - [Concepts](http://getgauge.io/documentation/user/current/specifications/concepts.html)
