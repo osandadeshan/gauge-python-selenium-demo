@@ -45,21 +45,21 @@ This project uses:
     `sudo apt-get update` \
     `sudo apt-get install gauge`
 
-    - Open Command Prompt and execute following commands. \
-    `[pip / pip3] install getgauge` \
-    `gauge install python` \
-    `gauge install html-report` \
-    `gauge install json-report` \
-    `gauge install xml-report` \
-    `gauge install spectacle` \
-    `gauge install flash`
+- Open Command Prompt and execute following commands. \
+  `[pip / pip3] install getgauge` \
+  `gauge install python` \
+  `gauge install html-report` \
+  `gauge install json-report` \
+  `gauge install xml-report` \
+  `gauge install spectacle` \
+  `gauge install flash`
 
-    - You can check the installation using the following command. \
-    `gauge -v`
+- You can check the installation using the following command. \
+  `gauge -v`
 
-      If the installation is success, it will output like this:
+ If the installation is success, it will output like this:
 
-    ```markdown
+  ```markdown
         Gauge version: <version number>
         Plugins
         -------
