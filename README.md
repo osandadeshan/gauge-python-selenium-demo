@@ -1,6 +1,6 @@
 # Gauge Python Selenium Example Project
 
-This project serves as an example for writing Automation using [Gauge.](https://github.com/getgauge/gauge)
+This project serves as an example for writing Automation using [Gauge.](https://docs.gauge.org/latest/installation.html)
 
 This project uses: 
 - [Selenium](http://selenium-python.readthedocs.org/)
