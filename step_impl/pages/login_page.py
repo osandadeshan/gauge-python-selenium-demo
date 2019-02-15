@@ -4,7 +4,7 @@ import time
 
 
 class LoginPageLocators:
-    """A class for Login page locators. All login page locators should come here"""
+    """ This is the class for login page locators. All login page locators should come here """
     USER_NAME_TEXT      = (By.XPATH, "//input[@id='login_field']")
     PASSWORD_TEXT       = (By.XPATH, "//input[@id='password']")
     SIGN_IN_BUTTON      = (By.XPATH, "//input[@value='Sign in']")
@@ -13,7 +13,7 @@ class LoginPageLocators:
 class LoginPage(BasePage):
     URL = '{}/login'.format(BasePage.MAIN_URL)
     
-    """Login page actions """
+    """ Login page actions """
     def visit(self):
         self.driver.get(self.URL)
     

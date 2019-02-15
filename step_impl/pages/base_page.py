@@ -8,9 +8,8 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support import expected_conditions as EC
 
 
-
 class BasePage(object):
-    URL = os.getenv('APP_ENDPOINT')
+    URL = os.getenv('app_endpoint')
     MAIN_URL = '{}'.format(URL)
 
     def __init__(self, driver):
@@ -60,11 +59,9 @@ class BasePage(object):
         self.driver.switch_to.default_content()
         #print(self.driver.page_source)
 
-
     def select(self, element, visible_text):
         WebDriverWait(self.driver, 100).until(lambda driver: self.driver.find_element(*element))
         select = Select(self.driver.find_element(*element))
-
         # FixMe
         try:
             select.select_by_visible_text(visible_text)
@@ -72,7 +69,6 @@ class BasePage(object):
             time.sleep(5)
         finally:
             select.select_by_visible_text(visible_text)
-
 
     def get_tag_elements_in(self, element, tag_name):
         WebDriverWait(self.driver, 100).until(lambda driver: self.driver.find_element(*element))

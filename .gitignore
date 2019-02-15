@@ -62,3 +62,4 @@ gauge
 logs/
 reports/
 .gauge/
+/.vscode
